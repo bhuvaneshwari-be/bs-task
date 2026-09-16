@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DropDown Modal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+        <style>
+            body {
+                background-image: url("../assets/movie.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                opacity: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid text-center mt-5 ">
+            <h1 class="text-white text-center">Movie Ticket Booking</h1>
+            <p class="text-center text-white">
+                Book your movie tickets in a few clicks!     
+            </p>
+        </div>
+
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center gap-5">
+                <div class="text-center text-white">
+                    <label class="form-label">
+                        Select Movie
+                    </label>
+
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            Choose a Movie
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Interstellar
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Inception
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    The Dark Knight
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Avatar
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Avengers: Endgame
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="text-center text-white">
+                    <label class="form-label">
+                        Select Theatre
+                    </label>
+
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            Choose a Theatre
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    PVR Cinemas
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    INOX
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    AGS Cinemas
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Rohini SilverScreens
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    IMAX
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="text-center text-white">
+                    <label class="form-label">
+                        Select Show Time
+                    </label>
+
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            Choose Show Time
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    10.00 AM
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    1.30 PM
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    4.30 PM
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    7.30 PM
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    10.30 PM
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="text-center text-white">
+                    <label class="form-label">
+                        Select Seat Type
+                    </label>
+
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            Choose Seat Type
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Regular
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Premium
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    Recliner
+                                </a>
+                            </li>
+                            <li> 
+                                <a class="dropdown-item" href="#">
+                                    VIP
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+             <div class="text-center mt-5">
+                    <button class="btn btn-primary px-5">
+                        Book Tickets
+                    </button>
+                </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
